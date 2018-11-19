@@ -1,2 +1,7 @@
-# ConsensusCookbook
-Decentralized Cookbook for Recipes 🍽🍳 
+# Consensus Cookbook
+
+A decentralized application for your cookbook Recipes 🍽🍳 
+
+
+
+
