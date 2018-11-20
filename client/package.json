@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.10.8",
+    "bootstrap": "^4.1.1",
     "merge": "^1.2.1",
     "react": "^16.4.2",
     "react-dev-utils": "^6.1.1",
