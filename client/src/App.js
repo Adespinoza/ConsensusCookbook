@@ -1,59 +1,99 @@
 import React, { Component } from "react";
-import SimpleStorageContract from "./contracts/SimpleStorage.json";
+import Election from './contracts//Election.json';
 import getWeb3 from "./utils/getWeb3";
 import truffleContract from "truffle-contract";
+import Content from './components/Content';
 
-import "./App.css";
+import "./style.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 class App extends Component {
-  //state = { storageValue: 0, web3: null, accounts: null, contract: null };
+    constructor(props) {
+    super(props)
+    this.state = {
+      account: '0x0',
+      candidates: [],
+      hasVoted: false,
+      loading: true,
+      voting: false,
+    }
 
-  // componentDidMount = async () => {
-  //   try {
-  //     // Get network provider and web3 instance.
-  //     const web3 = await getWeb3();
+    this.castVote = this.castVote.bind(this)
+    this.watchEvents = this.watchEvents.bind(this)
+  }
 
-  //     // Use web3 to get the user's accounts.
-  //     const accounts = await web3.eth.getAccounts();
+  componentDidMount = async () => {
+    const web3 = await getWeb3();
+    const accounts = await web3.eth.getAccounts();
+    const Contract = truffleContract(Election);
+    Contract.setProvider(web3.currentProvider);
+    const instance = await Contract.deployed();
 
-  //     // Get the contract instance.
-  //     const Contract = truffleContract(SimpleStorageContract);
-  //     Contract.setProvider(web3.currentProvider);
-  //     const instance = await Contract.deployed();
+    console.log(instance);
 
-  //     // Set web3, accounts, and contract to the state, and then proceed with an
-  //     // example of interacting with the contract's methods.
-  //     this.setState({ web3, accounts, contract: instance }, this.runExample);
-  //   } catch (error) {
-  //     // Catch any errors for any of the above operations.
-  //     alert(
-  //       `Failed to load web3, accounts, or contract. Check console for details.`
-  //     );
-  //     console.log(error);
-  //   }
-  // };
+    // TODO: Refactor with promise chain
+    web3.eth.getCoinbase((err, account) => {
+      this.setState({ account });
+      Contract.deployed().then((electionInstance) => {
+        this.electionInstance = instance;
 
-  // runExample = async () => {
-  //   const { accounts, contract } = this.state;
+        //this.watchEvents();
 
-  //   // Stores a given value, 5 by default.
-  //   //await contract.set(5, { from: accounts[0] });
+        this.electionInstance.candidatesCount().then((candidatesCount) => {
+          for (var i = 1; i <= candidatesCount; i++) {
+            this.electionInstance.candidates(i).then((candidate) => {
+              const candidates = [...this.state.candidates]
+              candidates.push({
+                id: candidate[0],
+                name: candidate[1],
+                voteCount: candidate[2]
+              });
+              this.setState({ candidates: candidates })
+            });
+          }
+        })
+        this.electionInstance.voters(this.state.account).then((hasVoted) => {
+          this.setState({ hasVoted, loading: false })
+        })
+      })
+    })
+  }
 
-  //   // Get the value from the contract to prove it worked.
-  //   //const response = await contract.get();
+   watchEvents() {
+    // TODO: trigger event when vote is counted, not when component renders
+    console.log(this.electionInstance);
+    this.electionInstance.votedEvent({
+      fromBlock: 0,
+      toBlock: 'latest'
+    }).watch((error, event) => {
+      this.setState({ voting: false });
+    })
+  }
 
-  //   // Update state with the result.
-  //   //this.setState({ storageValue: response.toNumber() });
-  // };
+  castVote(candidateId) {
+    this.setState({ voting: true })
+    this.electionInstance.vote(candidateId, { from: this.state.account }).then((result) =>
+      this.setState({ hasVoted: true })
+    )
+  }
 
   render() {
-    // if (!this.state.web3) {
-    //   return <div>Loading Web3, accounts, and contract...</div>;
-    // }
     return (
-        <h1 className="container-fluid">Hello World </h1>
-    );
+      <div className='row'>
+        <div className='col-lg-12 text-center' >
+          <h1>Election Results</h1>
+          <br/>
+          { this.state.loading || this.state.voting
+            ? <p className='text-center'>Loading...</p>
+            : <Content
+                account={this.state.account}
+                candidates={this.state.candidates}
+                hasVoted={this.state.hasVoted}
+                castVote={this.castVote} />
+          }
+        </div>
+      </div>
+    )
   }
 }
 

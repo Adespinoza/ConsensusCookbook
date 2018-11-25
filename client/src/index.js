@@ -4,7 +4,7 @@ import './index.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import App from './App';
+import App from './app';
 import Navbar from './components/Navbar/Navbar';
 
 ReactDOM.render(<Navbar />, document.getElementById('navbar'));
