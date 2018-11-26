@@ -15,7 +15,7 @@ class Navbar extends Component {
 				</div>
 					
 				<ul className="nav nav-pills justify-content-end">
-					<li className="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3 nav-item"><a className="nav-link" title="About" href="">About</a></li> 
+					<li className="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3 nav-item"><a className="nav-link" title="About" href="https://github.com/Adespinoza/ConsensusCookbook">About</a></li> 
 					<li className="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3 nav-item"><a className="nav-link active" title="Submit" href="">Submit</a></li>
 				</ul>
 			</div>

@@ -1,3 +1,4 @@
+
 contract Election {
     // Model a Candidate
     struct Candidate {
@@ -22,6 +23,12 @@ contract Election {
     function Election () public {
         addCandidate("Recipes List 1");
         addCandidate("Recipes List 2");
+        addCandidate("Recipes List 3");
+        addCandidate("Recipes List 4");
+        addCandidate("Recipes List 5");
+        addCandidate("Recipes List 6");
+        addCandidate("Recipes List 7");
+        addCandidate("Recipes List 8");
     }
 
     function addCandidate (string _name) private {

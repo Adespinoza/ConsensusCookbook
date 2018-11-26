@@ -602,7 +602,7 @@ img.wp-post-image {
 }
 
 .nav {
-    display: block
+    /*display: block*/
 }
 
 .navbar-fixed-bottom,
@@ -638,7 +638,7 @@ p.comment-form-cookies-consent {
 }
 
 .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1.75em;
     height: 70px;
     padding: 15px;
     line-height: 40px;
@@ -1370,7 +1370,7 @@ ol.comment-list {
 .btn-default:active:focus,
 .btn-default:active:hover,
 .btn-default:visited {
-    padding: 15px 46px;
+    padding: 15px 5px;
     color: #fff;
     font-size: 16px;
     text-transform: capitalize;
@@ -2354,3 +2354,15 @@ Use the following classes to style your popular posts list as you like.
 .navbar-default .navbar-link, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
     color: #333;
 }
+
+/*.ant-carousel .slick-slide {
+  text-align: center;
+  height: 500px;
+  line-height: 160px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}*/

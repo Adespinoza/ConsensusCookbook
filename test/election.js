@@ -3,11 +3,11 @@ var Election = artifacts.require("./Election.sol");
 contract("Election", function(accounts) {
   var electionInstance;
 
-  it("initializes with two candidates", function() {
+  it("initializes with eight recipes list", function() {
     return Election.deployed().then(function(instance) {
       return instance.candidatesCount();
     }).then(function(count) {
-      assert.equal(count, 2);
+      assert.equal(count, 8);
     });
   });
 
@@ -22,7 +22,42 @@ contract("Election", function(accounts) {
       return electionInstance.candidates(2);
     }).then(function(candidate) {
       assert.equal(candidate[0], 2, "contains the correct id");
-      assert.equal(candidate[1], "Candidate 2", "contains the correct name");
+      assert.equal(candidate[1], "candidate 2", "contains the correct name");
+      assert.equal(candidate[2], 0, "contains the correct votes count");
+      return electionInstance.candidates(3);
+    }).then(function(candidate) {
+      assert.equal(candidate[0], 3, "contains the correct id");
+      assert.equal(candidate[1], "candidate 3", "contains the correct name");
+      assert.equal(candidate[2], 0, "contains the correct votes count");
+
+      return electionInstance.candidates(4);
+    }).then(function(candidate) {
+      assert.equal(candidate[0], 4, "contains the correct id");
+      assert.equal(candidate[1], "candidate 4", "contains the correct name");
+      assert.equal(candidate[2], 0, "contains the correct votes count");
+
+      return electionInstance.candidates(5);
+    }).then(function(candidate) {
+      assert.equal(candidate[0], 5, "contains the correct id");
+      assert.equal(candidate[1], "candidate 5", "contains the correct name");
+      assert.equal(candidate[2], 0, "contains the correct votes count");
+
+      return electionInstance.candidates(6);
+    }).then(function(candidate) {
+      assert.equal(candidate[0], 6, "contains the correct id");
+      assert.equal(candidate[1], "candidate 6", "contains the correct name");
+      assert.equal(candidate[2], 0, "contains the correct votes count");
+
+      return electionInstance.candidates(7);
+    }).then(function(candidate) {
+      assert.equal(candidate[0], 7, "contains the correct id");
+      assert.equal(candidate[1], "candidate 7", "contains the correct name");
+      assert.equal(candidate[2], 0, "contains the correct votes count");
+
+      return electionInstance.candidates(8);
+    }).then(function(candidate) {
+      assert.equal(candidate[0], 8, "contains the correct id");
+      assert.equal(candidate[1], "candidate 3", "contains the correct name");
       assert.equal(candidate[2], 0, "contains the correct votes count");
     });
   });
@@ -60,6 +95,33 @@ contract("Election", function(accounts) {
     }).then(function(candidate2) {
       var voteCount = candidate2[2];
       assert.equal(voteCount, 0, "candidate 2 did not receive any votes");
+      return electionInstance.candidates(3);
+    }).then(function(candidate3) {
+      var voteCount = candidate3[2];
+      assert.equal(voteCount, 0, "candidate 3 did not receive any votes");
+
+      return electionInstance.candidates(4);
+    }).then(function(candidate4) {
+      var voteCount = candidate4[2];
+      assert.equal(voteCount, 0, "candidate 4 did not receive any votes");
+      return electionInstance.candidates(5);
+    }).then(function(candidate5) {
+      var voteCount = candidate5[2];
+      assert.equal(voteCount, 0, "candidate 5 did not receive any votes");
+      return electionInstance.candidates(6);
+    }).then(function(candidate6) {
+      var voteCount = candidate6[2];
+      assert.equal(voteCount, 0, "candidate 6 did not receive any votes");
+      return electionInstance.candidates(7);
+    }).then(function(candidate7) {
+      var voteCount = candidate7[2];
+      assert.equal(voteCount, 0, "candidate 7 did not receive any votes");
+      return electionInstance.candidates(8);
+    }).then(function(candidate8) {
+      var voteCount = candidate8[2];
+      assert.equal(voteCount, 0, "candidate 8 did not receive any votes");
+      
+      
     });
   });
 
@@ -84,6 +146,31 @@ contract("Election", function(accounts) {
     }).then(function(candidate2) {
       var voteCount = candidate2[2];
       assert.equal(voteCount, 1, "candidate 2 did not receive any votes");
+
+      return electionInstance.candidates(3);
+    }).then(function(candidate3) {
+      var voteCount = candidate3[2];
+      assert.equal(voteCount, 1, "candidate 3 did not receive any votes");
+      return electionInstance.candidates(4);
+    }).then(function(candidate4) {
+      var voteCount = candidate4[2];
+      assert.equal(voteCount, 1, "candidate 4 did not receive any votes");
+      return electionInstance.candidates(5);
+    }).then(function(candidate5) {
+      var voteCount = candidate5[2];
+      assert.equal(voteCount, 1, "candidate 5 did not receive any votes");
+      return electionInstance.candidates(6);
+    }).then(function(candidate6) {
+      var voteCount = candidate6[2];
+      assert.equal(voteCount, 1, "candidate 6 did not receive any votes");
+      return electionInstance.candidates(7);
+    }).then(function(candidate7) {
+      var voteCount = candidate7[2];
+      assert.equal(voteCount, 1, "candidate 7 did not receive any votes");
+      return electionInstance.candidates(8);
+    }).then(function(candidate8) {
+      var voteCount = candidate8[2];
+      assert.equal(voteCount, 1, "candidate 8 did not receive any votes");
     });
   });
 });
