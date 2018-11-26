@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Election from './contracts//Election.json';
+import Election from './contracts/Election';
 import getWeb3 from "./utils/getWeb3";
 import truffleContract from "truffle-contract";
 import Content from './components/Content';
 
-import "./style.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "./style.css";
 
 class App extends Component {
     constructor(props) {

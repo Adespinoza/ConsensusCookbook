@@ -19,6 +19,17 @@ Text Domain: noteblog
     text-transform: capitalize
 }
 
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: local('Merriweather'), url(/fonts/merriweather/Merriweather-Regular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: local('Merriweather'), url(/fonts/merriweather/Merriweather-Bold.otf) format('otf');
+}
+
+
 .navbar-default li>.dropdown-menu>li>a,
 code {
     white-space: normal
@@ -74,7 +85,7 @@ table {
 }
 
 body {
-    background: #eee
+    background: #fff
 }
 
 tbody tr:nth-child(odd) {
@@ -627,11 +638,11 @@ p.comment-form-cookies-consent {
 }
 
 .navbar-brand {
-    font-size: 20px;
+    font-size: 1.5em;
     height: 70px;
     padding: 15px;
     line-height: 40px;
-    font-style: italic
+    float: left;
 }
 
 .navbar-nav>li>a {
@@ -712,6 +723,10 @@ p.comment-form-cookies-consent {
 
 .navbar-default .navbar-link:hover {
     color: #000
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background: #4dbf99;
 }
 
 .dropdown-menu>.active>a,
@@ -2252,9 +2267,9 @@ img.wp-smiley, img.emoji {
 }
 
 .frontpage-site-title, .frontpage-site-description, .navbar-brand {
-    color: black;
+    color: #333333;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     letter-spacing: 3px;
 }
 
