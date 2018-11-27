@@ -6,7 +6,7 @@ class Navbar extends Component {
 		return(
 			<div className="container" id="navigation_menu">
 				<div className="navbar-header">
-					<a href="">
+					<a href="/">
 	              		<div className="navbar-brand">
 	              			Consensus Cookbook 
 	              			<img draggable="false" className="emoji" alt="🍳" src="https://s.w.org/images/core/emoji/11/svg/1f373.svg"/>

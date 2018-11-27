@@ -111,7 +111,7 @@ h4,
 h5,
 h6 {
     clear: both;
-    color: #212121;
+    color: #333;
     font-weight: 900;
     font-style: normal
 }
@@ -318,7 +318,7 @@ input[type=search].search-field {
 .single h5,
 .single h6 {
     font-family: Merriweather, serif;
-    color: #2f2f2f
+    color: #333
 }
 
 .search-form {
@@ -2355,14 +2355,7 @@ Use the following classes to style your popular posts list as you like.
     color: #333;
 }
 
-/*.ant-carousel .slick-slide {
-  text-align: center;
-  height: 500px;
-  line-height: 160px;
-  background: #fff;
-  overflow: hidden;
+#box-container
+{
+    font-family: Merriweather, serif;
 }
-
-.ant-carousel .slick-slide h3 {
-  color: #fff;
-}*/
