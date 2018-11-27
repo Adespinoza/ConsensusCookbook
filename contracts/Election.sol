@@ -21,14 +21,14 @@ contract Election {
     );
 
     function Election () public {
-        addCandidate("Recipes List 1");
-        addCandidate("Recipes List 2");
-        addCandidate("Recipes List 3");
-        addCandidate("Recipes List 4");
-        addCandidate("Recipes List 5");
-        addCandidate("Recipes List 6");
-        addCandidate("Recipes List 7");
-        addCandidate("Recipes List 8");
+        addCandidate("American Cookbook");
+        addCandidate("Chinese Cookbook");
+        addCandidate("Indian Cookbook");
+        addCandidate("Italian Cookbook");
+        addCandidate("Japanese Cookbook");
+        addCandidate("Mexican Cookbook");
+        addCandidate("Thai Cookbook");
+        addCandidate("Vegetarian Cookbook");
     }
 
     function addCandidate (string _name) private {

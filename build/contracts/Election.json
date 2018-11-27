@@ -94,11 +94,11 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b5061005e6040805190810160405280600e81526020017f52656369706573204c697374203100000000000000000000000000000000000081525061027e640100000000026401000000009004565b6100ab6040805190810160405280600e81526020017f52656369706573204c697374203200000000000000000000000000000000000081525061027e640100000000026401000000009004565b6100f86040805190810160405280600e81526020017f52656369706573204c697374203300000000000000000000000000000000000081525061027e640100000000026401000000009004565b6101456040805190810160405280600e81526020017f52656369706573204c697374203400000000000000000000000000000000000081525061027e640100000000026401000000009004565b6101926040805190810160405280600e81526020017f52656369706573204c697374203500000000000000000000000000000000000081525061027e640100000000026401000000009004565b6101df6040805190810160405280600e81526020017f52656369706573204c697374203600000000000000000000000000000000000081525061027e640100000000026401000000009004565b61022c6040805190810160405280600e81526020017f52656369706573204c697374203700000000000000000000000000000000000081525061027e640100000000026401000000009004565b6102796040805190810160405280600e81526020017f52656369706573204c697374203800000000000000000000000000000000000081525061027e640100000000026401000000009004565b6103a0565b600260008154809291906001019190505550606060405190810160405280600254815260200182815260200160008152506001600060025481526020019081526020016000206000820151816000015560208201518160010190805190602001906102ea9291906102fb565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061033c57805160ff191683800117855561036a565b8280016001018555821561036a579182015b8281111561036957825182559160200191906001019061034e565b5b509050610377919061037b565b5090565b61039d91905b80821115610399576000816000905550600101610381565b5090565b90565b610404806103af6000396000f300608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630121b93f146100675780632d35a8a2146100945780633477ee2e146100bf578063a3ec138d14610173575b600080fd5b34801561007357600080fd5b50610092600480360381019080803590602001909291905050506101ce565b005b3480156100a057600080fd5b506100a96102f0565b6040518082815260200191505060405180910390f35b3480156100cb57600080fd5b506100ea600480360381019080803590602001909291905050506102f6565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b8381101561013657808201518184015260208101905061011b565b50505050905090810190601f1680156101635780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b34801561017f57600080fd5b506101b4600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103b8565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615151561022657600080fd5b60008111801561023857506002548111155b151561024357600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055506001600082815260200190815260200160002060020160008154809291906001019190505550807ffff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b1660405160405180910390a250565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a85780601f1061037d576101008083540402835291602001916103a8565b820191906000526020600020905b81548152906001019060200180831161038b57829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff16815600a165627a7a72305820ea8ca089121617b6726ba6cc8cd2b3191e6cc9c2e9a5dc180ba8b38e65587c0d0029",
-  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630121b93f146100675780632d35a8a2146100945780633477ee2e146100bf578063a3ec138d14610173575b600080fd5b34801561007357600080fd5b50610092600480360381019080803590602001909291905050506101ce565b005b3480156100a057600080fd5b506100a96102f0565b6040518082815260200191505060405180910390f35b3480156100cb57600080fd5b506100ea600480360381019080803590602001909291905050506102f6565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b8381101561013657808201518184015260208101905061011b565b50505050905090810190601f1680156101635780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b34801561017f57600080fd5b506101b4600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103b8565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615151561022657600080fd5b60008111801561023857506002548111155b151561024357600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055506001600082815260200190815260200160002060020160008154809291906001019190505550807ffff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b1660405160405180910390a250565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a85780601f1061037d576101008083540402835291602001916103a8565b820191906000526020600020905b81548152906001019060200180831161038b57829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff16815600a165627a7a72305820ea8ca089121617b6726ba6cc8cd2b3191e6cc9c2e9a5dc180ba8b38e65587c0d0029",
-  "sourceMap": "2:1523:0:-;;;491:364;8:9:-1;5:2;;;30:1;27;20:12;5:2;491:364:0;530:30;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;571;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;612;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;653;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;694;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;735;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;776;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;817;;;;;;;;;;;;;;;;;;;:12;;;:30;;;:::i;:::-;2:1523;;863:159;919:15;;:18;;;;;;;;;;;;;978:36;;;;;;;;;988:15;;978:36;;;;1005:5;978:36;;;;1012:1;978:36;;;948:10;:27;959:15;;948:27;;;;;;;;;;;:66;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;863:159;:::o;2:1523::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "2:1523:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1030:492;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1030:492:0;;;;;;;;;;;;;;;;;;;;;;;;;;366:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;366:27:0;;;;;;;;;;;;;;;;;;;;;;;284:44;;8:9:-1;5:2;;;30:1;27;20:12;5:2;284:44:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;284:44:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;190:38;;8:9:-1;5:2;;;30:1;27;20:12;5:2;190:38:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1030:492;1142:6;:18;1149:10;1142:18;;;;;;;;;;;;;;;;;;;;;;;;;1141:19;1133:28;;;;;;;;1235:1;1220:12;:16;:51;;;;;1256:15;;1240:12;:31;;1220:51;1212:60;;;;;;;;1346:4;1325:6;:18;1332:10;1325:18;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;1403:10;:24;1414:12;1403:24;;;;;;;;;;;:34;;;:37;;;;;;;;;;;;;1501:12;1490:24;;;;;;;;;;1030:492;:::o;366:27::-;;;;:::o;284:44::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;190:38::-;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "\r\ncontract Election {\r\n    // Model a Candidate\r\n    struct Candidate {\r\n        uint id;\r\n        string name;\r\n        uint voteCount;\r\n    }\r\n\r\n    // Store accounts that have voted\r\n    mapping(address => bool) public voters;\r\n    // Store Candidates\r\n    // Fetch Candidate\r\n    mapping(uint => Candidate) public candidates;\r\n    // Store Candidates Count\r\n    uint public candidatesCount;\r\n\r\n    // voted event\r\n    event votedEvent (\r\n        uint indexed _candidateId\r\n    );\r\n\r\n    function Election () public {\r\n        addCandidate(\"Recipes List 1\");\r\n        addCandidate(\"Recipes List 2\");\r\n        addCandidate(\"Recipes List 3\");\r\n        addCandidate(\"Recipes List 4\");\r\n        addCandidate(\"Recipes List 5\");\r\n        addCandidate(\"Recipes List 6\");\r\n        addCandidate(\"Recipes List 7\");\r\n        addCandidate(\"Recipes List 8\");\r\n    }\r\n\r\n    function addCandidate (string _name) private {\r\n        candidatesCount ++;\r\n        candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);\r\n    }\r\n\r\n    function vote (uint _candidateId) public {\r\n        // require that they haven't voted before\r\n        require(!voters[msg.sender]);\r\n\r\n        // require a valid candidate\r\n        require(_candidateId > 0 && _candidateId <= candidatesCount);\r\n\r\n        // record that voter has voted\r\n        voters[msg.sender] = true;\r\n\r\n        // update candidate vote Count\r\n        candidates[_candidateId].voteCount ++;\r\n\r\n        // trigger voted event\r\n        emit votedEvent(_candidateId);\r\n    }\r\n}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061005e6040805190810160405280601181526020017f416d65726963616e20436f6f6b626f6f6b00000000000000000000000000000081525061027e640100000000026401000000009004565b6100ab6040805190810160405280601081526020017f4368696e65736520436f6f6b626f6f6b0000000000000000000000000000000081525061027e640100000000026401000000009004565b6100f86040805190810160405280600f81526020017f496e6469616e20436f6f6b626f6f6b000000000000000000000000000000000081525061027e640100000000026401000000009004565b6101456040805190810160405280601081526020017f4974616c69616e20436f6f6b626f6f6b0000000000000000000000000000000081525061027e640100000000026401000000009004565b6101926040805190810160405280601181526020017f4a6170616e65736520436f6f6b626f6f6b00000000000000000000000000000081525061027e640100000000026401000000009004565b6101df6040805190810160405280601081526020017f4d65786963616e20436f6f6b626f6f6b0000000000000000000000000000000081525061027e640100000000026401000000009004565b61022c6040805190810160405280600d81526020017f5468616920436f6f6b626f6f6b0000000000000000000000000000000000000081525061027e640100000000026401000000009004565b6102796040805190810160405280601381526020017f5665676574617269616e20436f6f6b626f6f6b0000000000000000000000000081525061027e640100000000026401000000009004565b6103a0565b600260008154809291906001019190505550606060405190810160405280600254815260200182815260200160008152506001600060025481526020019081526020016000206000820151816000015560208201518160010190805190602001906102ea9291906102fb565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061033c57805160ff191683800117855561036a565b8280016001018555821561036a579182015b8281111561036957825182559160200191906001019061034e565b5b509050610377919061037b565b5090565b61039d91905b80821115610399576000816000905550600101610381565b5090565b90565b610404806103af6000396000f300608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630121b93f146100675780632d35a8a2146100945780633477ee2e146100bf578063a3ec138d14610173575b600080fd5b34801561007357600080fd5b50610092600480360381019080803590602001909291905050506101ce565b005b3480156100a057600080fd5b506100a96102f0565b6040518082815260200191505060405180910390f35b3480156100cb57600080fd5b506100ea600480360381019080803590602001909291905050506102f6565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b8381101561013657808201518184015260208101905061011b565b50505050905090810190601f1680156101635780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b34801561017f57600080fd5b506101b4600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103b8565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615151561022657600080fd5b60008111801561023857506002548111155b151561024357600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055506001600082815260200190815260200160002060020160008154809291906001019190505550807ffff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b1660405160405180910390a250565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a85780601f1061037d576101008083540402835291602001916103a8565b820191906000526020600020905b81548152906001019060200180831161038b57829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff16815600a165627a7a72305820130fe006f1a63007a2316762bd52d92497c9bbcf2cd28f2568cfcba8a4b6bd470029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630121b93f146100675780632d35a8a2146100945780633477ee2e146100bf578063a3ec138d14610173575b600080fd5b34801561007357600080fd5b50610092600480360381019080803590602001909291905050506101ce565b005b3480156100a057600080fd5b506100a96102f0565b6040518082815260200191505060405180910390f35b3480156100cb57600080fd5b506100ea600480360381019080803590602001909291905050506102f6565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b8381101561013657808201518184015260208101905061011b565b50505050905090810190601f1680156101635780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b34801561017f57600080fd5b506101b4600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103b8565b604051808215151515815260200191505060405180910390f35b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615151561022657600080fd5b60008111801561023857506002548111155b151561024357600080fd5b60016000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055506001600082815260200190815260200160002060020160008154809291906001019190505550807ffff3c900d938d21d0990d786e819f29b8d05c1ef587b462b939609625b684b1660405160405180910390a250565b60025481565b6001602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a85780601f1061037d576101008083540402835291602001916103a8565b820191906000526020600020905b81548152906001019060200180831161038b57829003601f168201915b5050505050908060020154905083565b60006020528060005260406000206000915054906101000a900460ff16815600a165627a7a72305820130fe006f1a63007a2316762bd52d92497c9bbcf2cd28f2568cfcba8a4b6bd470029",
+  "sourceMap": "2:1540:0:-;;;491:381;8:9:-1;5:2;;;30:1;27;20:12;5:2;491:381:0;530:33;;;;;;;;;;;;;;;;;;;:12;;;:33;;;:::i;:::-;574:32;;;;;;;;;;;;;;;;;;;:12;;;:32;;;:::i;:::-;617:31;;;;;;;;;;;;;;;;;;;:12;;;:31;;;:::i;:::-;659:32;;;;;;;;;;;;;;;;;;;:12;;;:32;;;:::i;:::-;702:33;;;;;;;;;;;;;;;;;;;:12;;;:33;;;:::i;:::-;746:32;;;;;;;;;;;;;;;;;;;:12;;;:32;;;:::i;:::-;789:29;;;;;;;;;;;;;;;;;;;:12;;;:29;;;:::i;:::-;829:35;;;;;;;;;;;;;;;;;;;:12;;;:35;;;:::i;:::-;2:1540;;880:159;936:15;;:18;;;;;;;;;;;;;995:36;;;;;;;;;1005:15;;995:36;;;;1022:5;995:36;;;;1029:1;995:36;;;965:10;:27;976:15;;965:27;;;;;;;;;;;:66;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;880:159;:::o;2:1540::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "2:1540:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1047:492;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1047:492:0;;;;;;;;;;;;;;;;;;;;;;;;;;366:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;366:27:0;;;;;;;;;;;;;;;;;;;;;;;284:44;;8:9:-1;5:2;;;30:1;27;20:12;5:2;284:44:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;284:44:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;190:38;;8:9:-1;5:2;;;30:1;27;20:12;5:2;190:38:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1047:492;1159:6;:18;1166:10;1159:18;;;;;;;;;;;;;;;;;;;;;;;;;1158:19;1150:28;;;;;;;;1252:1;1237:12;:16;:51;;;;;1273:15;;1257:12;:31;;1237:51;1229:60;;;;;;;;1363:4;1342:6;:18;1349:10;1342:18;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;1420:10;:24;1431:12;1420:24;;;;;;;;;;;:34;;;:37;;;;;;;;;;;;;1518:12;1507:24;;;;;;;;;;1047:492;:::o;366:27::-;;;;:::o;284:44::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;190:38::-;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "\r\ncontract Election {\r\n    // Model a Candidate\r\n    struct Candidate {\r\n        uint id;\r\n        string name;\r\n        uint voteCount;\r\n    }\r\n\r\n    // Store accounts that have voted\r\n    mapping(address => bool) public voters;\r\n    // Store Candidates\r\n    // Fetch Candidate\r\n    mapping(uint => Candidate) public candidates;\r\n    // Store Candidates Count\r\n    uint public candidatesCount;\r\n\r\n    // voted event\r\n    event votedEvent (\r\n        uint indexed _candidateId\r\n    );\r\n\r\n    function Election () public {\r\n        addCandidate(\"American Cookbook\");\r\n        addCandidate(\"Chinese Cookbook\");\r\n        addCandidate(\"Indian Cookbook\");\r\n        addCandidate(\"Italian Cookbook\");\r\n        addCandidate(\"Japanese Cookbook\");\r\n        addCandidate(\"Mexican Cookbook\");\r\n        addCandidate(\"Thai Cookbook\");\r\n        addCandidate(\"Vegetarian Cookbook\");\r\n    }\r\n\r\n    function addCandidate (string _name) private {\r\n        candidatesCount ++;\r\n        candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);\r\n    }\r\n\r\n    function vote (uint _candidateId) public {\r\n        // require that they haven't voted before\r\n        require(!voters[msg.sender]);\r\n\r\n        // require a valid candidate\r\n        require(_candidateId > 0 && _candidateId <= candidatesCount);\r\n\r\n        // record that voter has voted\r\n        voters[msg.sender] = true;\r\n\r\n        // update candidate vote Count\r\n        candidates[_candidateId].voteCount ++;\r\n\r\n        // trigger voted event\r\n        emit votedEvent(_candidateId);\r\n    }\r\n}",
   "sourcePath": "/Users/adamespinoza/Desktop/FALL2018/ITP499/ConsensusCookbook/contracts/Election.sol",
   "ast": {
     "absolutePath": "/Users/adamespinoza/Desktop/FALL2018/ITP499/ConsensusCookbook/contracts/Election.sol",
@@ -376,7 +376,7 @@
             "body": {
               "id": 56,
               "nodeType": "Block",
-              "src": "519:336:0",
+              "src": "519:353:0",
               "statements": [
                 {
                   "expression": {
@@ -384,7 +384,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742031",
+                        "hexValue": "416d65726963616e20436f6f6b626f6f6b",
                         "id": 25,
                         "isConstant": false,
                         "isLValue": false,
@@ -392,20 +392,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "543:16:0",
+                        "src": "543:19:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_d2c13d277626a5a20aa2238ed2d1fd8cbf8f4a463794d417130a4d4fca4512c2",
-                          "typeString": "literal_string \"Recipes List 1\""
+                          "typeIdentifier": "t_stringliteral_c6bc149c6143042bff6757520bc460d7d6dd0cf122d711bd2128fa2b101c74a4",
+                          "typeString": "literal_string \"American Cookbook\""
                         },
-                        "value": "Recipes List 1"
+                        "value": "American Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_d2c13d277626a5a20aa2238ed2d1fd8cbf8f4a463794d417130a4d4fca4512c2",
-                          "typeString": "literal_string \"Recipes List 1\""
+                          "typeIdentifier": "t_stringliteral_c6bc149c6143042bff6757520bc460d7d6dd0cf122d711bd2128fa2b101c74a4",
+                          "typeString": "literal_string \"American Cookbook\""
                         }
                       ],
                       "id": 24,
@@ -427,7 +427,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "530:30:0",
+                    "src": "530:33:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -435,7 +435,7 @@
                   },
                   "id": 27,
                   "nodeType": "ExpressionStatement",
-                  "src": "530:30:0"
+                  "src": "530:33:0"
                 },
                 {
                   "expression": {
@@ -443,7 +443,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742032",
+                        "hexValue": "4368696e65736520436f6f6b626f6f6b",
                         "id": 29,
                         "isConstant": false,
                         "isLValue": false,
@@ -451,20 +451,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "584:16:0",
+                        "src": "587:18:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_5e4247c3801e2e91679ef42748aa0886c3ea30a0f01483f97459943583e1c091",
-                          "typeString": "literal_string \"Recipes List 2\""
+                          "typeIdentifier": "t_stringliteral_662a6fde69b8417cbe559d663fcfa4f3eda92369604dd6b7a1665d31e985c6c3",
+                          "typeString": "literal_string \"Chinese Cookbook\""
                         },
-                        "value": "Recipes List 2"
+                        "value": "Chinese Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_5e4247c3801e2e91679ef42748aa0886c3ea30a0f01483f97459943583e1c091",
-                          "typeString": "literal_string \"Recipes List 2\""
+                          "typeIdentifier": "t_stringliteral_662a6fde69b8417cbe559d663fcfa4f3eda92369604dd6b7a1665d31e985c6c3",
+                          "typeString": "literal_string \"Chinese Cookbook\""
                         }
                       ],
                       "id": 28,
@@ -472,7 +472,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "571:12:0",
+                      "src": "574:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -486,7 +486,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "571:30:0",
+                    "src": "574:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -494,7 +494,7 @@
                   },
                   "id": 31,
                   "nodeType": "ExpressionStatement",
-                  "src": "571:30:0"
+                  "src": "574:32:0"
                 },
                 {
                   "expression": {
@@ -502,7 +502,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742033",
+                        "hexValue": "496e6469616e20436f6f6b626f6f6b",
                         "id": 33,
                         "isConstant": false,
                         "isLValue": false,
@@ -510,20 +510,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "625:16:0",
+                        "src": "630:17:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_9c0dbc78450eadd0f8a00c91701ad9555611123b3804740a5f6ff602e5c8d278",
-                          "typeString": "literal_string \"Recipes List 3\""
+                          "typeIdentifier": "t_stringliteral_eacb9afa217a0fb23761ed9b002081a1a2f4ecce31d803f0e21e90e6cd12eb8d",
+                          "typeString": "literal_string \"Indian Cookbook\""
                         },
-                        "value": "Recipes List 3"
+                        "value": "Indian Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_9c0dbc78450eadd0f8a00c91701ad9555611123b3804740a5f6ff602e5c8d278",
-                          "typeString": "literal_string \"Recipes List 3\""
+                          "typeIdentifier": "t_stringliteral_eacb9afa217a0fb23761ed9b002081a1a2f4ecce31d803f0e21e90e6cd12eb8d",
+                          "typeString": "literal_string \"Indian Cookbook\""
                         }
                       ],
                       "id": 32,
@@ -531,7 +531,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "612:12:0",
+                      "src": "617:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -545,7 +545,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "612:30:0",
+                    "src": "617:31:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -553,7 +553,7 @@
                   },
                   "id": 35,
                   "nodeType": "ExpressionStatement",
-                  "src": "612:30:0"
+                  "src": "617:31:0"
                 },
                 {
                   "expression": {
@@ -561,7 +561,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742034",
+                        "hexValue": "4974616c69616e20436f6f6b626f6f6b",
                         "id": 37,
                         "isConstant": false,
                         "isLValue": false,
@@ -569,20 +569,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "666:16:0",
+                        "src": "672:18:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_3caebf8c867c4bd69658980ad445f41c25be3214f25f7b005a70a8d2ad087beb",
-                          "typeString": "literal_string \"Recipes List 4\""
+                          "typeIdentifier": "t_stringliteral_74f30517a1eb6d9ebd47e348b45b6d43e1eb7ceee64c42b3c292847bebb8a2b6",
+                          "typeString": "literal_string \"Italian Cookbook\""
                         },
-                        "value": "Recipes List 4"
+                        "value": "Italian Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_3caebf8c867c4bd69658980ad445f41c25be3214f25f7b005a70a8d2ad087beb",
-                          "typeString": "literal_string \"Recipes List 4\""
+                          "typeIdentifier": "t_stringliteral_74f30517a1eb6d9ebd47e348b45b6d43e1eb7ceee64c42b3c292847bebb8a2b6",
+                          "typeString": "literal_string \"Italian Cookbook\""
                         }
                       ],
                       "id": 36,
@@ -590,7 +590,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "653:12:0",
+                      "src": "659:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -604,7 +604,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "653:30:0",
+                    "src": "659:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -612,7 +612,7 @@
                   },
                   "id": 39,
                   "nodeType": "ExpressionStatement",
-                  "src": "653:30:0"
+                  "src": "659:32:0"
                 },
                 {
                   "expression": {
@@ -620,7 +620,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742035",
+                        "hexValue": "4a6170616e65736520436f6f6b626f6f6b",
                         "id": 41,
                         "isConstant": false,
                         "isLValue": false,
@@ -628,20 +628,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "707:16:0",
+                        "src": "715:19:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_c3f560ef043712154714a7b559e23a16dcbd146fc3d5c90af1208b1e4b751bef",
-                          "typeString": "literal_string \"Recipes List 5\""
+                          "typeIdentifier": "t_stringliteral_ffcca068ede0a78ac7b0607e4b7d77586fa005f008bb6296fa5c1ee6db90fc06",
+                          "typeString": "literal_string \"Japanese Cookbook\""
                         },
-                        "value": "Recipes List 5"
+                        "value": "Japanese Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_c3f560ef043712154714a7b559e23a16dcbd146fc3d5c90af1208b1e4b751bef",
-                          "typeString": "literal_string \"Recipes List 5\""
+                          "typeIdentifier": "t_stringliteral_ffcca068ede0a78ac7b0607e4b7d77586fa005f008bb6296fa5c1ee6db90fc06",
+                          "typeString": "literal_string \"Japanese Cookbook\""
                         }
                       ],
                       "id": 40,
@@ -649,7 +649,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "694:12:0",
+                      "src": "702:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -663,7 +663,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "694:30:0",
+                    "src": "702:33:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -671,7 +671,7 @@
                   },
                   "id": 43,
                   "nodeType": "ExpressionStatement",
-                  "src": "694:30:0"
+                  "src": "702:33:0"
                 },
                 {
                   "expression": {
@@ -679,7 +679,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742036",
+                        "hexValue": "4d65786963616e20436f6f6b626f6f6b",
                         "id": 45,
                         "isConstant": false,
                         "isLValue": false,
@@ -687,20 +687,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "748:16:0",
+                        "src": "759:18:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_6303e7356da92574bfa2fda6c355a5edf725d56d5f65aae3a317c21cd0ee6941",
-                          "typeString": "literal_string \"Recipes List 6\""
+                          "typeIdentifier": "t_stringliteral_1da88f2d3e8674069e25c58fc0a944f2a54cf9f9332701be414992a9224aa265",
+                          "typeString": "literal_string \"Mexican Cookbook\""
                         },
-                        "value": "Recipes List 6"
+                        "value": "Mexican Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_6303e7356da92574bfa2fda6c355a5edf725d56d5f65aae3a317c21cd0ee6941",
-                          "typeString": "literal_string \"Recipes List 6\""
+                          "typeIdentifier": "t_stringliteral_1da88f2d3e8674069e25c58fc0a944f2a54cf9f9332701be414992a9224aa265",
+                          "typeString": "literal_string \"Mexican Cookbook\""
                         }
                       ],
                       "id": 44,
@@ -708,7 +708,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "735:12:0",
+                      "src": "746:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -722,7 +722,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "735:30:0",
+                    "src": "746:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -730,7 +730,7 @@
                   },
                   "id": 47,
                   "nodeType": "ExpressionStatement",
-                  "src": "735:30:0"
+                  "src": "746:32:0"
                 },
                 {
                   "expression": {
@@ -738,7 +738,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742037",
+                        "hexValue": "5468616920436f6f6b626f6f6b",
                         "id": 49,
                         "isConstant": false,
                         "isLValue": false,
@@ -746,20 +746,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "789:16:0",
+                        "src": "802:15:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_5b7e5fcb6aac40038efb5b22506d7a5eb18496087a5e922f1118ea83297179a7",
-                          "typeString": "literal_string \"Recipes List 7\""
+                          "typeIdentifier": "t_stringliteral_02b052b4c2d20784d89c8e95db27dd5b4ea1aec2c8b341d59c7e2d6233f1352b",
+                          "typeString": "literal_string \"Thai Cookbook\""
                         },
-                        "value": "Recipes List 7"
+                        "value": "Thai Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_5b7e5fcb6aac40038efb5b22506d7a5eb18496087a5e922f1118ea83297179a7",
-                          "typeString": "literal_string \"Recipes List 7\""
+                          "typeIdentifier": "t_stringliteral_02b052b4c2d20784d89c8e95db27dd5b4ea1aec2c8b341d59c7e2d6233f1352b",
+                          "typeString": "literal_string \"Thai Cookbook\""
                         }
                       ],
                       "id": 48,
@@ -767,7 +767,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "776:12:0",
+                      "src": "789:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -781,7 +781,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "776:30:0",
+                    "src": "789:29:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -789,7 +789,7 @@
                   },
                   "id": 51,
                   "nodeType": "ExpressionStatement",
-                  "src": "776:30:0"
+                  "src": "789:29:0"
                 },
                 {
                   "expression": {
@@ -797,7 +797,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742038",
+                        "hexValue": "5665676574617269616e20436f6f6b626f6f6b",
                         "id": 53,
                         "isConstant": false,
                         "isLValue": false,
@@ -805,20 +805,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "830:16:0",
+                        "src": "842:21:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_6c81574dc3225b544f82e4f15edb42a3ac1e39facc1af11297f36dc01ef52fee",
-                          "typeString": "literal_string \"Recipes List 8\""
+                          "typeIdentifier": "t_stringliteral_f018c995ffa56dded892f70fdec68a5cbc246da15ffe8e64d88c50ecdf83843f",
+                          "typeString": "literal_string \"Vegetarian Cookbook\""
                         },
-                        "value": "Recipes List 8"
+                        "value": "Vegetarian Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_6c81574dc3225b544f82e4f15edb42a3ac1e39facc1af11297f36dc01ef52fee",
-                          "typeString": "literal_string \"Recipes List 8\""
+                          "typeIdentifier": "t_stringliteral_f018c995ffa56dded892f70fdec68a5cbc246da15ffe8e64d88c50ecdf83843f",
+                          "typeString": "literal_string \"Vegetarian Cookbook\""
                         }
                       ],
                       "id": 52,
@@ -826,7 +826,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "817:12:0",
+                      "src": "829:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -840,7 +840,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "817:30:0",
+                    "src": "829:35:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -848,7 +848,7 @@
                   },
                   "id": 55,
                   "nodeType": "ExpressionStatement",
-                  "src": "817:30:0"
+                  "src": "829:35:0"
                 }
               ]
             },
@@ -874,7 +874,7 @@
               "src": "519:0:0"
             },
             "scope": 118,
-            "src": "491:364:0",
+            "src": "491:381:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -883,7 +883,7 @@
             "body": {
               "id": 75,
               "nodeType": "Block",
-              "src": "908:114:0",
+              "src": "925:114:0",
               "statements": [
                 {
                   "expression": {
@@ -896,7 +896,7 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "919:18:0",
+                    "src": "936:18:0",
                     "subExpression": {
                       "argumentTypes": null,
                       "id": 62,
@@ -904,7 +904,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 17,
-                      "src": "919:15:0",
+                      "src": "936:15:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -917,7 +917,7 @@
                   },
                   "id": 64,
                   "nodeType": "ExpressionStatement",
-                  "src": "919:18:0"
+                  "src": "936:18:0"
                 },
                 {
                   "expression": {
@@ -936,7 +936,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 15,
-                        "src": "948:10:0",
+                        "src": "965:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Candidate_$7_storage_$",
                           "typeString": "mapping(uint256 => struct Election.Candidate storage ref)"
@@ -950,7 +950,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 17,
-                        "src": "959:15:0",
+                        "src": "976:15:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -961,7 +961,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "948:27:0",
+                      "src": "965:27:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Candidate_$7_storage",
                         "typeString": "struct Election.Candidate storage ref"
@@ -979,7 +979,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 17,
-                          "src": "988:15:0",
+                          "src": "1005:15:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -992,7 +992,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 59,
-                          "src": "1005:5:0",
+                          "src": "1022:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
                             "typeString": "string memory"
@@ -1008,7 +1008,7 @@
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1012:1:0",
+                          "src": "1029:1:0",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
@@ -1037,7 +1037,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 7,
-                        "src": "978:9:0",
+                        "src": "995:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Candidate_$7_storage_ptr_$",
                           "typeString": "type(struct Election.Candidate storage pointer)"
@@ -1051,13 +1051,13 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "978:36:0",
+                      "src": "995:36:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Candidate_$7_memory",
                         "typeString": "struct Election.Candidate memory"
                       }
                     },
-                    "src": "948:66:0",
+                    "src": "965:66:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Candidate_$7_storage",
                       "typeString": "struct Election.Candidate storage ref"
@@ -1065,7 +1065,7 @@
                   },
                   "id": 74,
                   "nodeType": "ExpressionStatement",
-                  "src": "948:66:0"
+                  "src": "965:66:0"
                 }
               ]
             },
@@ -1087,7 +1087,7 @@
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
                   "scope": 76,
-                  "src": "886:12:0",
+                  "src": "903:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1098,7 +1098,7 @@
                     "id": 58,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "886:6:0",
+                    "src": "903:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -1108,17 +1108,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "885:14:0"
+              "src": "902:14:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 61,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "908:0:0"
+              "src": "925:0:0"
             },
             "scope": 118,
-            "src": "863:159:0",
+            "src": "880:159:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "private"
@@ -1127,7 +1127,7 @@
             "body": {
               "id": 116,
               "nodeType": "Block",
-              "src": "1071:451:0",
+              "src": "1088:451:0",
               "statements": [
                 {
                   "expression": {
@@ -1143,7 +1143,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "1141:19:0",
+                        "src": "1158:19:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "baseExpression": {
@@ -1153,7 +1153,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 11,
-                            "src": "1142:6:0",
+                            "src": "1159:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                               "typeString": "mapping(address => bool)"
@@ -1169,7 +1169,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 190,
-                              "src": "1149:3:0",
+                              "src": "1166:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
@@ -1183,7 +1183,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "1149:10:0",
+                            "src": "1166:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1194,7 +1194,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1142:18:0",
+                          "src": "1159:18:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1221,7 +1221,7 @@
                         194
                       ],
                       "referencedDeclaration": 193,
-                      "src": "1133:7:0",
+                      "src": "1150:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -1235,7 +1235,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1133:28:0",
+                    "src": "1150:28:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1243,7 +1243,7 @@
                   },
                   "id": 88,
                   "nodeType": "ExpressionStatement",
-                  "src": "1133:28:0"
+                  "src": "1150:28:0"
                 },
                 {
                   "expression": {
@@ -1278,7 +1278,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 78,
-                            "src": "1220:12:0",
+                            "src": "1237:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1296,7 +1296,7 @@
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "1235:1:0",
+                            "src": "1252:1:0",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_0_by_1",
@@ -1304,7 +1304,7 @@
                             },
                             "value": "0"
                           },
-                          "src": "1220:16:0",
+                          "src": "1237:16:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1330,7 +1330,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 78,
-                            "src": "1240:12:0",
+                            "src": "1257:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1345,19 +1345,19 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 17,
-                            "src": "1256:15:0",
+                            "src": "1273:15:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1240:31:0",
+                          "src": "1257:31:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "1220:51:0",
+                        "src": "1237:51:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1379,7 +1379,7 @@
                         194
                       ],
                       "referencedDeclaration": 193,
-                      "src": "1212:7:0",
+                      "src": "1229:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -1393,7 +1393,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1212:60:0",
+                    "src": "1229:60:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1401,7 +1401,7 @@
                   },
                   "id": 98,
                   "nodeType": "ExpressionStatement",
-                  "src": "1212:60:0"
+                  "src": "1229:60:0"
                 },
                 {
                   "expression": {
@@ -1420,7 +1420,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 11,
-                        "src": "1325:6:0",
+                        "src": "1342:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -1436,7 +1436,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 190,
-                          "src": "1332:3:0",
+                          "src": "1349:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -1450,7 +1450,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "1332:10:0",
+                        "src": "1349:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1461,7 +1461,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "1325:18:0",
+                      "src": "1342:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -1479,7 +1479,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1346:4:0",
+                      "src": "1363:4:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -1487,7 +1487,7 @@
                       },
                       "value": "true"
                     },
-                    "src": "1325:25:0",
+                    "src": "1342:25:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1495,7 +1495,7 @@
                   },
                   "id": 105,
                   "nodeType": "ExpressionStatement",
-                  "src": "1325:25:0"
+                  "src": "1342:25:0"
                 },
                 {
                   "expression": {
@@ -1508,7 +1508,7 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "1403:37:0",
+                    "src": "1420:37:0",
                     "subExpression": {
                       "argumentTypes": null,
                       "expression": {
@@ -1520,7 +1520,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 15,
-                          "src": "1403:10:0",
+                          "src": "1420:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Candidate_$7_storage_$",
                             "typeString": "mapping(uint256 => struct Election.Candidate storage ref)"
@@ -1534,7 +1534,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 78,
-                          "src": "1414:12:0",
+                          "src": "1431:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1545,7 +1545,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1403:24:0",
+                        "src": "1420:24:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Candidate_$7_storage",
                           "typeString": "struct Election.Candidate storage ref"
@@ -1559,7 +1559,7 @@
                       "memberName": "voteCount",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 6,
-                      "src": "1403:34:0",
+                      "src": "1420:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1572,7 +1572,7 @@
                   },
                   "id": 111,
                   "nodeType": "ExpressionStatement",
-                  "src": "1403:37:0"
+                  "src": "1420:37:0"
                 },
                 {
                   "eventCall": {
@@ -1585,7 +1585,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 78,
-                        "src": "1501:12:0",
+                        "src": "1518:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1604,7 +1604,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 21,
-                      "src": "1490:10:0",
+                      "src": "1507:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
@@ -1618,7 +1618,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1490:24:0",
+                    "src": "1507:24:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1626,7 +1626,7 @@
                   },
                   "id": 115,
                   "nodeType": "EmitStatement",
-                  "src": "1485:29:0"
+                  "src": "1502:29:0"
                 }
               ]
             },
@@ -1648,7 +1648,7 @@
                   "name": "_candidateId",
                   "nodeType": "VariableDeclaration",
                   "scope": 117,
-                  "src": "1045:17:0",
+                  "src": "1062:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1659,7 +1659,7 @@
                     "id": 77,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1045:4:0",
+                    "src": "1062:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1669,27 +1669,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1044:19:0"
+              "src": "1061:19:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 80,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1071:0:0"
+              "src": "1088:0:0"
             },
             "scope": 118,
-            "src": "1030:492:0",
+            "src": "1047:492:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 119,
-        "src": "2:1523:0"
+        "src": "2:1540:0"
       }
     ],
-    "src": "2:1523:0"
+    "src": "2:1540:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/adamespinoza/Desktop/FALL2018/ITP499/ConsensusCookbook/contracts/Election.sol",
@@ -1967,7 +1967,7 @@
             "body": {
               "id": 56,
               "nodeType": "Block",
-              "src": "519:336:0",
+              "src": "519:353:0",
               "statements": [
                 {
                   "expression": {
@@ -1975,7 +1975,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742031",
+                        "hexValue": "416d65726963616e20436f6f6b626f6f6b",
                         "id": 25,
                         "isConstant": false,
                         "isLValue": false,
@@ -1983,20 +1983,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "543:16:0",
+                        "src": "543:19:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_d2c13d277626a5a20aa2238ed2d1fd8cbf8f4a463794d417130a4d4fca4512c2",
-                          "typeString": "literal_string \"Recipes List 1\""
+                          "typeIdentifier": "t_stringliteral_c6bc149c6143042bff6757520bc460d7d6dd0cf122d711bd2128fa2b101c74a4",
+                          "typeString": "literal_string \"American Cookbook\""
                         },
-                        "value": "Recipes List 1"
+                        "value": "American Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_d2c13d277626a5a20aa2238ed2d1fd8cbf8f4a463794d417130a4d4fca4512c2",
-                          "typeString": "literal_string \"Recipes List 1\""
+                          "typeIdentifier": "t_stringliteral_c6bc149c6143042bff6757520bc460d7d6dd0cf122d711bd2128fa2b101c74a4",
+                          "typeString": "literal_string \"American Cookbook\""
                         }
                       ],
                       "id": 24,
@@ -2018,7 +2018,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "530:30:0",
+                    "src": "530:33:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2026,7 +2026,7 @@
                   },
                   "id": 27,
                   "nodeType": "ExpressionStatement",
-                  "src": "530:30:0"
+                  "src": "530:33:0"
                 },
                 {
                   "expression": {
@@ -2034,7 +2034,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742032",
+                        "hexValue": "4368696e65736520436f6f6b626f6f6b",
                         "id": 29,
                         "isConstant": false,
                         "isLValue": false,
@@ -2042,20 +2042,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "584:16:0",
+                        "src": "587:18:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_5e4247c3801e2e91679ef42748aa0886c3ea30a0f01483f97459943583e1c091",
-                          "typeString": "literal_string \"Recipes List 2\""
+                          "typeIdentifier": "t_stringliteral_662a6fde69b8417cbe559d663fcfa4f3eda92369604dd6b7a1665d31e985c6c3",
+                          "typeString": "literal_string \"Chinese Cookbook\""
                         },
-                        "value": "Recipes List 2"
+                        "value": "Chinese Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_5e4247c3801e2e91679ef42748aa0886c3ea30a0f01483f97459943583e1c091",
-                          "typeString": "literal_string \"Recipes List 2\""
+                          "typeIdentifier": "t_stringliteral_662a6fde69b8417cbe559d663fcfa4f3eda92369604dd6b7a1665d31e985c6c3",
+                          "typeString": "literal_string \"Chinese Cookbook\""
                         }
                       ],
                       "id": 28,
@@ -2063,7 +2063,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "571:12:0",
+                      "src": "574:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -2077,7 +2077,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "571:30:0",
+                    "src": "574:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2085,7 +2085,7 @@
                   },
                   "id": 31,
                   "nodeType": "ExpressionStatement",
-                  "src": "571:30:0"
+                  "src": "574:32:0"
                 },
                 {
                   "expression": {
@@ -2093,7 +2093,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742033",
+                        "hexValue": "496e6469616e20436f6f6b626f6f6b",
                         "id": 33,
                         "isConstant": false,
                         "isLValue": false,
@@ -2101,20 +2101,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "625:16:0",
+                        "src": "630:17:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_9c0dbc78450eadd0f8a00c91701ad9555611123b3804740a5f6ff602e5c8d278",
-                          "typeString": "literal_string \"Recipes List 3\""
+                          "typeIdentifier": "t_stringliteral_eacb9afa217a0fb23761ed9b002081a1a2f4ecce31d803f0e21e90e6cd12eb8d",
+                          "typeString": "literal_string \"Indian Cookbook\""
                         },
-                        "value": "Recipes List 3"
+                        "value": "Indian Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_9c0dbc78450eadd0f8a00c91701ad9555611123b3804740a5f6ff602e5c8d278",
-                          "typeString": "literal_string \"Recipes List 3\""
+                          "typeIdentifier": "t_stringliteral_eacb9afa217a0fb23761ed9b002081a1a2f4ecce31d803f0e21e90e6cd12eb8d",
+                          "typeString": "literal_string \"Indian Cookbook\""
                         }
                       ],
                       "id": 32,
@@ -2122,7 +2122,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "612:12:0",
+                      "src": "617:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -2136,7 +2136,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "612:30:0",
+                    "src": "617:31:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2144,7 +2144,7 @@
                   },
                   "id": 35,
                   "nodeType": "ExpressionStatement",
-                  "src": "612:30:0"
+                  "src": "617:31:0"
                 },
                 {
                   "expression": {
@@ -2152,7 +2152,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742034",
+                        "hexValue": "4974616c69616e20436f6f6b626f6f6b",
                         "id": 37,
                         "isConstant": false,
                         "isLValue": false,
@@ -2160,20 +2160,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "666:16:0",
+                        "src": "672:18:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_3caebf8c867c4bd69658980ad445f41c25be3214f25f7b005a70a8d2ad087beb",
-                          "typeString": "literal_string \"Recipes List 4\""
+                          "typeIdentifier": "t_stringliteral_74f30517a1eb6d9ebd47e348b45b6d43e1eb7ceee64c42b3c292847bebb8a2b6",
+                          "typeString": "literal_string \"Italian Cookbook\""
                         },
-                        "value": "Recipes List 4"
+                        "value": "Italian Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_3caebf8c867c4bd69658980ad445f41c25be3214f25f7b005a70a8d2ad087beb",
-                          "typeString": "literal_string \"Recipes List 4\""
+                          "typeIdentifier": "t_stringliteral_74f30517a1eb6d9ebd47e348b45b6d43e1eb7ceee64c42b3c292847bebb8a2b6",
+                          "typeString": "literal_string \"Italian Cookbook\""
                         }
                       ],
                       "id": 36,
@@ -2181,7 +2181,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "653:12:0",
+                      "src": "659:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -2195,7 +2195,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "653:30:0",
+                    "src": "659:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2203,7 +2203,7 @@
                   },
                   "id": 39,
                   "nodeType": "ExpressionStatement",
-                  "src": "653:30:0"
+                  "src": "659:32:0"
                 },
                 {
                   "expression": {
@@ -2211,7 +2211,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742035",
+                        "hexValue": "4a6170616e65736520436f6f6b626f6f6b",
                         "id": 41,
                         "isConstant": false,
                         "isLValue": false,
@@ -2219,20 +2219,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "707:16:0",
+                        "src": "715:19:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_c3f560ef043712154714a7b559e23a16dcbd146fc3d5c90af1208b1e4b751bef",
-                          "typeString": "literal_string \"Recipes List 5\""
+                          "typeIdentifier": "t_stringliteral_ffcca068ede0a78ac7b0607e4b7d77586fa005f008bb6296fa5c1ee6db90fc06",
+                          "typeString": "literal_string \"Japanese Cookbook\""
                         },
-                        "value": "Recipes List 5"
+                        "value": "Japanese Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_c3f560ef043712154714a7b559e23a16dcbd146fc3d5c90af1208b1e4b751bef",
-                          "typeString": "literal_string \"Recipes List 5\""
+                          "typeIdentifier": "t_stringliteral_ffcca068ede0a78ac7b0607e4b7d77586fa005f008bb6296fa5c1ee6db90fc06",
+                          "typeString": "literal_string \"Japanese Cookbook\""
                         }
                       ],
                       "id": 40,
@@ -2240,7 +2240,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "694:12:0",
+                      "src": "702:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -2254,7 +2254,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "694:30:0",
+                    "src": "702:33:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2262,7 +2262,7 @@
                   },
                   "id": 43,
                   "nodeType": "ExpressionStatement",
-                  "src": "694:30:0"
+                  "src": "702:33:0"
                 },
                 {
                   "expression": {
@@ -2270,7 +2270,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742036",
+                        "hexValue": "4d65786963616e20436f6f6b626f6f6b",
                         "id": 45,
                         "isConstant": false,
                         "isLValue": false,
@@ -2278,20 +2278,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "748:16:0",
+                        "src": "759:18:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_6303e7356da92574bfa2fda6c355a5edf725d56d5f65aae3a317c21cd0ee6941",
-                          "typeString": "literal_string \"Recipes List 6\""
+                          "typeIdentifier": "t_stringliteral_1da88f2d3e8674069e25c58fc0a944f2a54cf9f9332701be414992a9224aa265",
+                          "typeString": "literal_string \"Mexican Cookbook\""
                         },
-                        "value": "Recipes List 6"
+                        "value": "Mexican Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_6303e7356da92574bfa2fda6c355a5edf725d56d5f65aae3a317c21cd0ee6941",
-                          "typeString": "literal_string \"Recipes List 6\""
+                          "typeIdentifier": "t_stringliteral_1da88f2d3e8674069e25c58fc0a944f2a54cf9f9332701be414992a9224aa265",
+                          "typeString": "literal_string \"Mexican Cookbook\""
                         }
                       ],
                       "id": 44,
@@ -2299,7 +2299,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "735:12:0",
+                      "src": "746:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -2313,7 +2313,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "735:30:0",
+                    "src": "746:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2321,7 +2321,7 @@
                   },
                   "id": 47,
                   "nodeType": "ExpressionStatement",
-                  "src": "735:30:0"
+                  "src": "746:32:0"
                 },
                 {
                   "expression": {
@@ -2329,7 +2329,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742037",
+                        "hexValue": "5468616920436f6f6b626f6f6b",
                         "id": 49,
                         "isConstant": false,
                         "isLValue": false,
@@ -2337,20 +2337,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "789:16:0",
+                        "src": "802:15:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_5b7e5fcb6aac40038efb5b22506d7a5eb18496087a5e922f1118ea83297179a7",
-                          "typeString": "literal_string \"Recipes List 7\""
+                          "typeIdentifier": "t_stringliteral_02b052b4c2d20784d89c8e95db27dd5b4ea1aec2c8b341d59c7e2d6233f1352b",
+                          "typeString": "literal_string \"Thai Cookbook\""
                         },
-                        "value": "Recipes List 7"
+                        "value": "Thai Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_5b7e5fcb6aac40038efb5b22506d7a5eb18496087a5e922f1118ea83297179a7",
-                          "typeString": "literal_string \"Recipes List 7\""
+                          "typeIdentifier": "t_stringliteral_02b052b4c2d20784d89c8e95db27dd5b4ea1aec2c8b341d59c7e2d6233f1352b",
+                          "typeString": "literal_string \"Thai Cookbook\""
                         }
                       ],
                       "id": 48,
@@ -2358,7 +2358,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "776:12:0",
+                      "src": "789:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -2372,7 +2372,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "776:30:0",
+                    "src": "789:29:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2380,7 +2380,7 @@
                   },
                   "id": 51,
                   "nodeType": "ExpressionStatement",
-                  "src": "776:30:0"
+                  "src": "789:29:0"
                 },
                 {
                   "expression": {
@@ -2388,7 +2388,7 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "hexValue": "52656369706573204c6973742038",
+                        "hexValue": "5665676574617269616e20436f6f6b626f6f6b",
                         "id": 53,
                         "isConstant": false,
                         "isLValue": false,
@@ -2396,20 +2396,20 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "830:16:0",
+                        "src": "842:21:0",
                         "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_stringliteral_6c81574dc3225b544f82e4f15edb42a3ac1e39facc1af11297f36dc01ef52fee",
-                          "typeString": "literal_string \"Recipes List 8\""
+                          "typeIdentifier": "t_stringliteral_f018c995ffa56dded892f70fdec68a5cbc246da15ffe8e64d88c50ecdf83843f",
+                          "typeString": "literal_string \"Vegetarian Cookbook\""
                         },
-                        "value": "Recipes List 8"
+                        "value": "Vegetarian Cookbook"
                       }
                     ],
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_stringliteral_6c81574dc3225b544f82e4f15edb42a3ac1e39facc1af11297f36dc01ef52fee",
-                          "typeString": "literal_string \"Recipes List 8\""
+                          "typeIdentifier": "t_stringliteral_f018c995ffa56dded892f70fdec68a5cbc246da15ffe8e64d88c50ecdf83843f",
+                          "typeString": "literal_string \"Vegetarian Cookbook\""
                         }
                       ],
                       "id": 52,
@@ -2417,7 +2417,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 76,
-                      "src": "817:12:0",
+                      "src": "829:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
@@ -2431,7 +2431,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "817:30:0",
+                    "src": "829:35:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2439,7 +2439,7 @@
                   },
                   "id": 55,
                   "nodeType": "ExpressionStatement",
-                  "src": "817:30:0"
+                  "src": "829:35:0"
                 }
               ]
             },
@@ -2465,7 +2465,7 @@
               "src": "519:0:0"
             },
             "scope": 118,
-            "src": "491:364:0",
+            "src": "491:381:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -2474,7 +2474,7 @@
             "body": {
               "id": 75,
               "nodeType": "Block",
-              "src": "908:114:0",
+              "src": "925:114:0",
               "statements": [
                 {
                   "expression": {
@@ -2487,7 +2487,7 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "919:18:0",
+                    "src": "936:18:0",
                     "subExpression": {
                       "argumentTypes": null,
                       "id": 62,
@@ -2495,7 +2495,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 17,
-                      "src": "919:15:0",
+                      "src": "936:15:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2508,7 +2508,7 @@
                   },
                   "id": 64,
                   "nodeType": "ExpressionStatement",
-                  "src": "919:18:0"
+                  "src": "936:18:0"
                 },
                 {
                   "expression": {
@@ -2527,7 +2527,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 15,
-                        "src": "948:10:0",
+                        "src": "965:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Candidate_$7_storage_$",
                           "typeString": "mapping(uint256 => struct Election.Candidate storage ref)"
@@ -2541,7 +2541,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 17,
-                        "src": "959:15:0",
+                        "src": "976:15:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2552,7 +2552,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "948:27:0",
+                      "src": "965:27:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Candidate_$7_storage",
                         "typeString": "struct Election.Candidate storage ref"
@@ -2570,7 +2570,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 17,
-                          "src": "988:15:0",
+                          "src": "1005:15:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2583,7 +2583,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 59,
-                          "src": "1005:5:0",
+                          "src": "1022:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
                             "typeString": "string memory"
@@ -2599,7 +2599,7 @@
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1012:1:0",
+                          "src": "1029:1:0",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
@@ -2628,7 +2628,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 7,
-                        "src": "978:9:0",
+                        "src": "995:9:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Candidate_$7_storage_ptr_$",
                           "typeString": "type(struct Election.Candidate storage pointer)"
@@ -2642,13 +2642,13 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "978:36:0",
+                      "src": "995:36:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Candidate_$7_memory",
                         "typeString": "struct Election.Candidate memory"
                       }
                     },
-                    "src": "948:66:0",
+                    "src": "965:66:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Candidate_$7_storage",
                       "typeString": "struct Election.Candidate storage ref"
@@ -2656,7 +2656,7 @@
                   },
                   "id": 74,
                   "nodeType": "ExpressionStatement",
-                  "src": "948:66:0"
+                  "src": "965:66:0"
                 }
               ]
             },
@@ -2678,7 +2678,7 @@
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
                   "scope": 76,
-                  "src": "886:12:0",
+                  "src": "903:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2689,7 +2689,7 @@
                     "id": 58,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "886:6:0",
+                    "src": "903:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -2699,17 +2699,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "885:14:0"
+              "src": "902:14:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 61,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "908:0:0"
+              "src": "925:0:0"
             },
             "scope": 118,
-            "src": "863:159:0",
+            "src": "880:159:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "private"
@@ -2718,7 +2718,7 @@
             "body": {
               "id": 116,
               "nodeType": "Block",
-              "src": "1071:451:0",
+              "src": "1088:451:0",
               "statements": [
                 {
                   "expression": {
@@ -2734,7 +2734,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "1141:19:0",
+                        "src": "1158:19:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "baseExpression": {
@@ -2744,7 +2744,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 11,
-                            "src": "1142:6:0",
+                            "src": "1159:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                               "typeString": "mapping(address => bool)"
@@ -2760,7 +2760,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 190,
-                              "src": "1149:3:0",
+                              "src": "1166:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
@@ -2774,7 +2774,7 @@
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "1149:10:0",
+                            "src": "1166:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -2785,7 +2785,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1142:18:0",
+                          "src": "1159:18:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -2812,7 +2812,7 @@
                         194
                       ],
                       "referencedDeclaration": 193,
-                      "src": "1133:7:0",
+                      "src": "1150:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -2826,7 +2826,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1133:28:0",
+                    "src": "1150:28:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2834,7 +2834,7 @@
                   },
                   "id": 88,
                   "nodeType": "ExpressionStatement",
-                  "src": "1133:28:0"
+                  "src": "1150:28:0"
                 },
                 {
                   "expression": {
@@ -2869,7 +2869,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 78,
-                            "src": "1220:12:0",
+                            "src": "1237:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2887,7 +2887,7 @@
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "1235:1:0",
+                            "src": "1252:1:0",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_0_by_1",
@@ -2895,7 +2895,7 @@
                             },
                             "value": "0"
                           },
-                          "src": "1220:16:0",
+                          "src": "1237:16:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -2921,7 +2921,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 78,
-                            "src": "1240:12:0",
+                            "src": "1257:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2936,19 +2936,19 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 17,
-                            "src": "1256:15:0",
+                            "src": "1273:15:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1240:31:0",
+                          "src": "1257:31:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "1220:51:0",
+                        "src": "1237:51:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -2970,7 +2970,7 @@
                         194
                       ],
                       "referencedDeclaration": 193,
-                      "src": "1212:7:0",
+                      "src": "1229:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
@@ -2984,7 +2984,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1212:60:0",
+                    "src": "1229:60:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -2992,7 +2992,7 @@
                   },
                   "id": 98,
                   "nodeType": "ExpressionStatement",
-                  "src": "1212:60:0"
+                  "src": "1229:60:0"
                 },
                 {
                   "expression": {
@@ -3011,7 +3011,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 11,
-                        "src": "1325:6:0",
+                        "src": "1342:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -3027,7 +3027,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 190,
-                          "src": "1332:3:0",
+                          "src": "1349:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -3041,7 +3041,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "1332:10:0",
+                        "src": "1349:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -3052,7 +3052,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "1325:18:0",
+                      "src": "1342:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -3070,7 +3070,7 @@
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1346:4:0",
+                      "src": "1363:4:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -3078,7 +3078,7 @@
                       },
                       "value": "true"
                     },
-                    "src": "1325:25:0",
+                    "src": "1342:25:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3086,7 +3086,7 @@
                   },
                   "id": 105,
                   "nodeType": "ExpressionStatement",
-                  "src": "1325:25:0"
+                  "src": "1342:25:0"
                 },
                 {
                   "expression": {
@@ -3099,7 +3099,7 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "1403:37:0",
+                    "src": "1420:37:0",
                     "subExpression": {
                       "argumentTypes": null,
                       "expression": {
@@ -3111,7 +3111,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 15,
-                          "src": "1403:10:0",
+                          "src": "1420:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Candidate_$7_storage_$",
                             "typeString": "mapping(uint256 => struct Election.Candidate storage ref)"
@@ -3125,7 +3125,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 78,
-                          "src": "1414:12:0",
+                          "src": "1431:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3136,7 +3136,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "1403:24:0",
+                        "src": "1420:24:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Candidate_$7_storage",
                           "typeString": "struct Election.Candidate storage ref"
@@ -3150,7 +3150,7 @@
                       "memberName": "voteCount",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 6,
-                      "src": "1403:34:0",
+                      "src": "1420:34:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3163,7 +3163,7 @@
                   },
                   "id": 111,
                   "nodeType": "ExpressionStatement",
-                  "src": "1403:37:0"
+                  "src": "1420:37:0"
                 },
                 {
                   "eventCall": {
@@ -3176,7 +3176,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 78,
-                        "src": "1501:12:0",
+                        "src": "1518:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3195,7 +3195,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 21,
-                      "src": "1490:10:0",
+                      "src": "1507:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
@@ -3209,7 +3209,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1490:24:0",
+                    "src": "1507:24:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -3217,7 +3217,7 @@
                   },
                   "id": 115,
                   "nodeType": "EmitStatement",
-                  "src": "1485:29:0"
+                  "src": "1502:29:0"
                 }
               ]
             },
@@ -3239,7 +3239,7 @@
                   "name": "_candidateId",
                   "nodeType": "VariableDeclaration",
                   "scope": 117,
-                  "src": "1045:17:0",
+                  "src": "1062:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3250,7 +3250,7 @@
                     "id": 77,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1045:4:0",
+                    "src": "1062:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3260,27 +3260,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1044:19:0"
+              "src": "1061:19:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 80,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1071:0:0"
+              "src": "1088:0:0"
             },
             "scope": 118,
-            "src": "1030:492:0",
+            "src": "1047:492:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 119,
-        "src": "2:1523:0"
+        "src": "2:1540:0"
       }
     ],
-    "src": "2:1523:0"
+    "src": "2:1540:0"
   },
   "compiler": {
     "name": "solc",
@@ -3290,10 +3290,10 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x7d3fa050c07269f4456551aefb5b206b2dcd65e5",
-      "transactionHash": "0x8df4c5411000f53cdd8c78409fe91f78e647586a1cfba9e8953411c7b0318c0a"
+      "address": "0x3de731f3ebbb0816e898621b0842209cef278950",
+      "transactionHash": "0xc0d4a3bd59187531d22e5162344d2e9ff452207e3358c1e1bd8d0dd048e11617"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-11-27T17:25:22.900Z"
+  "updatedAt": "2018-11-27T19:56:52.011Z"
 }
