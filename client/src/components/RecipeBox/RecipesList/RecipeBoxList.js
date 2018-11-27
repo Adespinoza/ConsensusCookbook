@@ -41,7 +41,13 @@ export default class RecipeBoxList extends Component {
 							bordered={true} 
 							cover={<img alt="example" src={american_cookbook} />}
 						>
-						Content
+							<p>
+								🍔 All American 1/4 Burger <br />
+								🧀 Gouda Mac & Cheese <br />
+								🍠 Sweet Potato Pie <br />
+								🍞 Mamas Homemade Cornbread <br />
+								🥔 Fully Loaded Oven Baked Potato <br />
+							</p>
 						</Card>
 					</Col>
 
@@ -133,7 +139,13 @@ export default class RecipeBoxList extends Component {
 							bordered={true} 
 							cover={<img alt="example" src={thai_cookbook} />}
 						>
-							Content
+							<p>
+								🥭 Mango Sticky Rice<br />
+								🥥 Coconut Soup<br />
+								🍚 Authentic Pad Thai<br />
+								🍜 Pad Kee Mow (Drunken Noodles)<br />
+								🥒 Yam Taeng<br />
+							</p>
 						</Card>
 					</Col>
 				</Row>
