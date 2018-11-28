@@ -10,8 +10,18 @@ import mexican_cookbook from '../../../assets/images/mexican_cookbook.jpg';
 import thai_cookbook from '../../../assets/images/thai_cookbook.jpg';
 import vegetarian_cookbook from '../../../assets/images/vegetarian_cookbook.jpg';
 
-export default class RecipeBoxList extends Component {
+	var cardStyle = {
+		height: '400px',
+		overflow: 'auto',
+	}
 
+	var imageStyle = {
+    	maxHeight: '175px',
+    	objectFit: 'cover',
+	}
+
+export default class RecipeBoxList extends Component {
+	
 	render() {
 		return(
 			<div>
@@ -23,7 +33,8 @@ export default class RecipeBoxList extends Component {
 						<Tag color="#d9e5e2" style={{ margin: 10 }}><h6>Vegetarian</h6></Tag>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={vegetarian_cookbook} />}
+							cover={<img alt="example" src={vegetarian_cookbook} />} 
+							style={cardStyle}
 						>
 							<p>
 							🥔 Sweet Potato Kale Frittata <br />
@@ -39,7 +50,8 @@ export default class RecipeBoxList extends Component {
 						<Tag color="#fcddd5" style={{ margin: 10 }}><h6>American</h6></Tag>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={american_cookbook} />}
+							cover={<img alt="example" src={american_cookbook} />} 
+							style={cardStyle}
 						>
 							<p>
 								🍔 All American 1/4 Burger <br />
@@ -55,7 +67,8 @@ export default class RecipeBoxList extends Component {
 						<Tag color="#dbdbf7" style={{ margin: 10 }}><h6>Chinese</h6></Tag>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={chinese_cookbook} />}
+							cover={<img alt="example" src={chinese_cookbook} />} 
+							style={cardStyle}
 						>
 							<p>
 								🐷 Moo Shu Pork<br />
@@ -71,7 +84,8 @@ export default class RecipeBoxList extends Component {
 						<Tag color="#f9eed9" style={{ margin: 10 }}><h6>Japanese</h6></Tag>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={japanese_cookbook} />}
+							cover={<img alt="example" src={japanese_cookbook} />} 
+							style={cardStyle}
 						>
 							<p>
 								🍗 Tonkatsu or Chicken Katsu <br />
@@ -84,12 +98,18 @@ export default class RecipeBoxList extends Component {
 					</Col>
 				</Row>
 
+				<br />
+
 				<Row gutter={16}>
 					<Col className="gutter-row" span={6}>
-						<Tag color="#d9e5e2" style={{ margin: 10 }}><h6>Indian</h6></Tag>
+						<div style={{display: 'inline-block'}}>
+							<Tag color="#d9e5e2" style={{ margin: 10 }}><h6>Indian</h6></Tag>
+							<h6>90</h6>
+						</div>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={indian_cookbook}/>}
+							cover={<img alt="example" style = {imageStyle} src={indian_cookbook}/>} 
+							style={cardStyle}
 						>
 							<p>
 								🍛 Chicken Tikka Masala <br />
@@ -105,7 +125,8 @@ export default class RecipeBoxList extends Component {
 						<Tag color="#fcddd5" style={{ margin: 10 }}><h6>Italian</h6></Tag>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={italian_cookbook} />}
+							cover={<img alt="example" style = {imageStyle} src={italian_cookbook} />} 
+							style={cardStyle}
 						>
 							<p>
 								🍕 Cauliflower Veggie Pizza <br />
@@ -121,7 +142,8 @@ export default class RecipeBoxList extends Component {
 						<Tag color="#dbdbf7" style={{ margin: 10 }}><h6>Mexican</h6></Tag>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={mexican_cookbook} />}
+							cover={<img alt="example" style = {imageStyle} src={mexican_cookbook} />} 
+							style={cardStyle}
 						>
 							<p>
 								🧀 Enchilada Suazas<br />
@@ -137,7 +159,8 @@ export default class RecipeBoxList extends Component {
 						<Tag color="#f9eed9" style={{ margin: 10 }}><h6>Thai</h6></Tag>
 						<Card 
 							bordered={true} 
-							cover={<img alt="example" src={thai_cookbook} />}
+							cover={<img alt="example" style = {imageStyle} src={thai_cookbook} />} 
+							style={cardStyle}
 						>
 							<p>
 								🥭 Mango Sticky Rice<br />
