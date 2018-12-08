@@ -1,8 +1,13 @@
+//Load Election.sol smart contract and store it in a variable
 var Election = artifacts.require("./Election.sol");
 
 contract("Election", function(accounts) {
+  //create an election instance
   var electionInstance;
 
+  //Usage of chai and mocha javascript libraries
+
+  //Test1: contract was initialized with the correct number of recipes by checking the cookbook’s count.
   it("initializes with eight recipes list", function() {
     return Election.deployed().then(function(instance) {
       return instance.candidatesCount();
@@ -11,57 +16,54 @@ contract("Election", function(accounts) {
     });
   });
 
+  //Test2 :Inspects the values of each recipe in the voting, ensuring that each recipe has the correct id, name, and vote count.
   it("it initializes the candidates with the correct values", function() {
     return Election.deployed().then(function(instance) {
       electionInstance = instance;
       return electionInstance.candidates(1);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 1, "contains the correct id");
-      assert.equal(candidate[1], "Candidate 1", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
+      assert.equal(candidate[0], 1, "has correct id");
+      assert.equal(candidate[1], "Candidate 1", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
       return electionInstance.candidates(2);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 2, "contains the correct id");
-      assert.equal(candidate[1], "candidate 2", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
+      assert.equal(candidate[0], 2, "has correct id");
+      assert.equal(candidate[1], "candidate 2", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
       return electionInstance.candidates(3);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 3, "contains the correct id");
-      assert.equal(candidate[1], "candidate 3", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
-
+      assert.equal(candidate[0], 3, "has correct id");
+      assert.equal(candidate[1], "candidate 3", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
       return electionInstance.candidates(4);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 4, "contains the correct id");
-      assert.equal(candidate[1], "candidate 4", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
-
+      assert.equal(candidate[0], 4, "has correct id");
+      assert.equal(candidate[1], "candidate 4", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
       return electionInstance.candidates(5);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 5, "contains the correct id");
-      assert.equal(candidate[1], "candidate 5", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
-
+      assert.equal(candidate[0], 5, "has correct id");
+      assert.equal(candidate[1], "candidate 5", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
       return electionInstance.candidates(6);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 6, "contains the correct id");
-      assert.equal(candidate[1], "candidate 6", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
-
+      assert.equal(candidate[0], 6, "has correct id");
+      assert.equal(candidate[1], "candidate 6", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
       return electionInstance.candidates(7);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 7, "contains the correct id");
-      assert.equal(candidate[1], "candidate 7", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
-
+      assert.equal(candidate[0], 7, "has correct id");
+      assert.equal(candidate[1], "candidate 7", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
       return electionInstance.candidates(8);
     }).then(function(candidate) {
-      assert.equal(candidate[0], 8, "contains the correct id");
-      assert.equal(candidate[1], "candidate 3", "contains the correct name");
-      assert.equal(candidate[2], 0, "contains the correct votes count");
+      assert.equal(candidate[0], 8, "has correct id");
+      assert.equal(candidate[1], "candidate 3", "has correct name");
+      assert.equal(candidate[2], 0, "has correct votes count");
     });
   });
 
+  //Test3: Test that the function increments the vote count for the recipe.
   it("allows a voter to cast a vote", function() {
     return Election.deployed().then(function(instance) {
       electionInstance = instance;
@@ -81,6 +83,7 @@ contract("Election", function(accounts) {
     })
   });
 
+  //Test4: Test that the voter is added to the mapping whenever they vote.
   it("throws an exception for invalid candiates", function() {
     return Election.deployed().then(function(instance) {
       electionInstance = instance;
@@ -99,7 +102,6 @@ contract("Election", function(accounts) {
     }).then(function(candidate3) {
       var voteCount = candidate3[2];
       assert.equal(voteCount, 0, "candidate 3 did not receive any votes");
-
       return electionInstance.candidates(4);
     }).then(function(candidate4) {
       var voteCount = candidate4[2];
@@ -125,6 +127,7 @@ contract("Election", function(accounts) {
     });
   });
 
+  //Test5: Prevent Double voting.
   it("throws an exception for double voting", function() {
     return Election.deployed().then(function(instance) {
       electionInstance = instance;
@@ -146,7 +149,6 @@ contract("Election", function(accounts) {
     }).then(function(candidate2) {
       var voteCount = candidate2[2];
       assert.equal(voteCount, 1, "candidate 2 did not receive any votes");
-
       return electionInstance.candidates(3);
     }).then(function(candidate3) {
       var voteCount = candidate3[2];
