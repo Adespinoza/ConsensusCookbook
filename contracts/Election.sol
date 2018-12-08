@@ -1,25 +1,36 @@
+//Smart contract for Cooking Election
+//1. Model a Cookbook (Struct)
+//2. Read/write Cookbook (Using Solidity mapping)
+//3. Store Cookbook Count (variable)
+//4. Add cookbook to the list (Function)
+//5. Store accounts that have voted (Using Solidity mapping).
+//6. Function vote (to update cookbook vote-count)
+//7. Trigger voted event
+
 
 contract Election {
-    // Model a Candidate
+    // Define a structure for Cookbook Candidate
     struct Candidate {
         uint id;
         string name;
         uint voteCount;
     }
 
-    // Store accounts that have voted
+    // Store voted accounts
     mapping(address => bool) public voters;
-    // Store Candidates
-    // Fetch Candidate
+    
+    // Store Candidate
     mapping(uint => Candidate) public candidates;
+
     // Store Candidates Count
     uint public candidatesCount;
 
-    // voted event
+    // Event : Voted event (store the IDs of voters)
     event votedEvent (
         uint indexed _candidateId
     );
 
+    //Initialize the contract with eight cookbooks
     function Election () public {
         addCandidate("American Cookbook");
         addCandidate("Chinese Cookbook");
@@ -31,22 +42,25 @@ contract Election {
         addCandidate("Vegetarian Cookbook");
     }
 
+    //Function to add cooking candidates
     function addCandidate (string _name) private {
         candidatesCount ++;
         candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
     }
 
+    //vote function
     function vote (uint _candidateId) public {
-        // require that they haven't voted before
+
+        // check the condition to validae that it is the new voter and has not already voted
         require(!voters[msg.sender]);
 
-        // require a valid candidate
+        // check the condition to validate the Candidate
         require(_candidateId > 0 && _candidateId <= candidatesCount);
 
-        // record that voter has voted
+        // Mark that the voter has casted a vote
         voters[msg.sender] = true;
 
-        // update candidate vote Count
+        // Incerement the vote Count for candidate
         candidates[_candidateId].voteCount ++;
 
         // trigger voted event
