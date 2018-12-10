@@ -11,7 +11,7 @@ Users give up tokens to vote for the cookbook that they want to try and in retur
 To Deploye the application, there are a couple of things you need to make sure before we can get you going: 
 
 #### Ganache 
-You'll first want to make sure that you have Ganache from the Truffle Suite installed on your computer. It allows you to quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
+You'll first want to make sure that you have [Ganache](https://truffleframework.com/ganache) from the Truffle Suite installed on your computer. It allows you to quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
 
 Once opened, be sure to take a note of what the RPC Server is (found at the top navigation bar). The RPC Server should default to `HTTP://127.0.0.1:7545`, but if it's not just be sure that you have the RPC server saved for the next step.
 
@@ -29,6 +29,8 @@ Next you'll want to do a `cd` into `client/` and then run an `npm install` just 
 
 Be sure that Ganache and Metamask are loaded, and within `client/` run an `npm start` which should open up a new webpage on `localhost:3000` and then you can be able to test the project. 
 
+## Special Thanks
+Special thanks to Professor Eric Chung of ITP-499 for teachin us Solidity and other important Blockchain related topics 🎉
 
 
 
