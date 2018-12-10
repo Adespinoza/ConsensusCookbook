@@ -1,7 +1,5 @@
 # Consensus Cookbook
 
-
-[![Node](https://img.shields.io/node/v/:packageName.svg)](https://nodejs.org)
 [![Package: npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/)
 [![License: MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
